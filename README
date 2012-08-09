@@ -1,3 +1,0 @@
-simple image loader
-
-Just loads images and provides a ByteBuffer of the loaded data - suitable as a source for textures
