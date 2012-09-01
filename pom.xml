@@ -13,4 +13,25 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <scm>
+    <connection>scm:git:git://github.com/void256/simpleimageloader.git</connection>
+    <developerConnection>scm:git:git@github.com:void256/simpleimageloader.git</developerConnection>
+    <url>scm:git:git://github.com/void256/simpleimageloader.git</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>nifty-maven-repo.sourceforge.net</id>
+      <url>sftp://web.sourceforge.net/home/project-web/nifty-gui/htdocs/nifty-maven-repo</url>
+    </repository>
+    <snapshotRepository>
+      <id>nifty-maven-repo.sourceforge.net</id>
+      <url>sftp://web.sourceforge.net/home/project-web/nifty-gui/htdocs/nifty-maven-repo</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <repositories>
+    <repository>
+      <id>nifty-maven-repo.sourceforge.net</id>
+      <url>http://nifty-gui.sourceforge.net/nifty-maven-repo</url>
+    </repository>
+  </repositories>
 </project>
