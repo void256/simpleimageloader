@@ -141,7 +141,7 @@ public class ImageTypeImageIO implements ImageType {
   }
 
   private void processFlipped(final BufferedImage image, final boolean flipped, final Graphics2D g, final int height) {
-    if (flipped) {
+    if (!flipped) {
       g.scale(1, -1);
       g.drawImage(image, 0, -height, null);
     } else {
