@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.lessvoid</groupId>
   <artifactId>simpleimageloader</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <name>Simple Image Loader</name>
   <description>Just loads images and provides a ByteBuffer of the loaded data - suitable as a source for textures for example</description>
   <dependencies>
